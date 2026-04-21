@@ -31,9 +31,6 @@ int main() {
                     time += tq; 
                     rt[i] -= tq; 
                 } else { 
- 
-45 | Page 
- 
                     time += rt[i]; 
                     wt[i] = time - bt[i]; 
                     rt[i] = 0; 
